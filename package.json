@@ -1,0 +1,31 @@
+{
+  "name": "codurance-kata",
+  "version": "0.0.1",
+  "owner": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "eslint . --quiet && echo '✔ All good!'",
+    "coverage": "nyc mocha --exit && nyc check-coverage",
+    "test": "npm run lint && npm run coverage"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "dirty-chai": "2.0.1",
+    "eslint": "6.8.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-mocha": "6.3.0",
+    "eslint-plugin-node": "10.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "mocha": "5.2.0",
+    "nyc": "14.1.1",
+    "sinon": "7.5.0",
+    "sinon-chai": "3.5.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  }
+}
