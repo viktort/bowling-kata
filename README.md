@@ -4,8 +4,8 @@ Practice TDD using transformation priority premise
 
 ### Requirements
 
-_Input_: A string representing the rolls for the game
-_Output_: An integer representing the score for each game
+- _Input_: A string representing the rolls for the game
+- _Output_: An integer representing the score for each game
 
 _Symbols used:_
 
