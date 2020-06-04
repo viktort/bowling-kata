@@ -1,6 +1,6 @@
 ### Bowling game kata
  
-Practice TDD using transformation priority premise
+TDD using transformation priority premise
 
 ### Requirements
 
